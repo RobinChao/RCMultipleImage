@@ -13,6 +13,7 @@
 		00F297F51BF73F11008D6B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F297F41BF73F11008D6B42 /* Assets.xcassets */; };
 		00F297F81BF73F11008D6B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F297F61BF73F11008D6B42 /* LaunchScreen.storyboard */; };
 		00F298011BF73F39008D6B42 /* RCMultipleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F298001BF73F39008D6B42 /* RCMultipleImage.swift */; };
+		00F298041BF77970008D6B42 /* RCGroupPortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F298031BF77970008D6B42 /* RCGroupPortraitView.swift */; };
 		E2152FCF4E8F6AF8397B6D64 /* Pods_RCMultipleImageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B245CC83D6D96828C216CF7 /* Pods_RCMultipleImageDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		00F297F71BF73F11008D6B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00F297F91BF73F11008D6B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00F298001BF73F39008D6B42 /* RCMultipleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCMultipleImage.swift; sourceTree = "<group>"; };
+		00F298031BF77970008D6B42 /* RCGroupPortraitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCGroupPortraitView.swift; sourceTree = "<group>"; };
 		54AE865595E5DD3E46D26C54 /* Pods-RCMultipleImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCMultipleImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCMultipleImageDemo/Pods-RCMultipleImageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5B245CC83D6D96828C216CF7 /* Pods_RCMultipleImageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCMultipleImageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BA011E93A953F219ABC2A3 /* Pods-RCMultipleImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCMultipleImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCMultipleImageDemo/Pods-RCMultipleImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		00F298021BF776BE008D6B42 /* RCGroupPortraitView */ = {
 			isa = PBXGroup;
 			children = (
+				00F298031BF77970008D6B42 /* RCGroupPortraitView.swift */,
 			);
 			path = RCGroupPortraitView;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			files = (
 				00F297F01BF73F11008D6B42 /* ViewController.swift in Sources */,
 				00F297EE1BF73F11008D6B42 /* AppDelegate.swift in Sources */,
+				00F298041BF77970008D6B42 /* RCGroupPortraitView.swift in Sources */,
 				00F298011BF73F39008D6B42 /* RCMultipleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
