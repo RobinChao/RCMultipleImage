@@ -45,6 +45,7 @@
 		00F297E11BF73F11008D6B42 = {
 			isa = PBXGroup;
 			children = (
+				00F298021BF776BE008D6B42 /* RCGroupPortraitView */,
 				00F297FF1BF73F23008D6B42 /* RCMultipleImage */,
 				00F297EC1BF73F11008D6B42 /* RCMultipleImageDemo */,
 				00F297EB1BF73F11008D6B42 /* Products */,
@@ -80,6 +81,13 @@
 				00F298001BF73F39008D6B42 /* RCMultipleImage.swift */,
 			);
 			path = RCMultipleImage;
+			sourceTree = "<group>";
+		};
+		00F298021BF776BE008D6B42 /* RCGroupPortraitView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RCGroupPortraitView;
 			sourceTree = "<group>";
 		};
 		2707BDA4D767596822846510 /* Pods */ = {
